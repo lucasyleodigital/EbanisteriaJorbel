@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carpintería Ebanistería Jorbel | Muebles a Medida en Gavà desde 1994</title>
+  <meta name="description" content="Carpintería y ebanistería artesanal en Gavà, Barcelona. Más de 30 años fabricando muebles a medida, armarios, cocinas y carpintería de construcción con la máxima calidad." />
+  <meta name="keywords" content="carpintería Gavà, ebanistería Barcelona, muebles a medida Gavà, carpintero Gavà, armarios a medida, cocinas madera Barcelona" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo">
+        <div class="logo-mark">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="34" height="34" rx="9" fill="var(--wood)" />
+            <path d="M9 11H25M9 17H25M9 23H18" stroke="#F5ECD7" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="22" cy="23" r="2.2" fill="#F5ECD7"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">JORBEL</span>
+          <span class="logo-sub">Carpintería · Ebanistería</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#galeria" class="nav-link">Proyectos</a>
+        <a href="#contacto" class="nav-link nav-cta">Presupuesto</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="assets/hero_carpinteria.jpg" alt="Artesano carpintero trabajando madera en taller Jorbel Gavà" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="badge-spark"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <span>Desde 1994 en Gavà, Barcelona</span>
+      </div>
+      <h1 class="hero-title">
+        La madera que<br />
+        <em>cuenta tu historia</em>
+      </h1>
+      <p class="hero-subtitle">
+        Más de 30 años fabricando muebles a medida, ebanistería artesanal<br class="desktop-br" />
+        y carpintería de construcción con pasión por el detalle.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Solicitar presupuesto</a>
+        <a href="#galeria" class="btn btn-ghost">Ver proyectos</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">30+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Proyectos realizados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Artesanal a medida</span>
+        </div>
+      </div>
+    </div>
+    <a href="#servicios" class="hero-scroll" aria-label="Bajar a servicios">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Lo que hacemos</p>
+        <h2 class="section-title">Nuestros servicios</h2>
+        <p class="section-desc">Cada proyecto es único. Trabajamos la madera con el mismo rigor artesanal desde hace más de tres décadas.</p>
+      </div>
+      <div class="servicios-grid">
+
+        <div class="servicio-card" id="servicio-muebles">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="10" width="40" height="26" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M4 22h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M14 36v4M34 36v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="servicio-title">Muebles a Medida</h3>
+          <p class="servicio-desc">Diseñamos y fabricamos cualquier mueble adaptado a tu espacio: armarios, cocinas, estanterías, mesas y mucho más. Cada pieza, única.</p>
+          <ul class="servicio-list">
+            <li>Armarios empotrados y vestidores</li>
+            <li>Cocinas y muebles de baño</li>
+            <li>Mesas, sillas y mobiliario auxiliar</li>
+            <li>Librerías y estanterías integradas</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card featured" id="servicio-ebanisteria">
+          <div class="servicio-badge">Especialidad</div>
+          <div class="servicio-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 38L36 10M20 10h16v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="38" r="4" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="servicio-title">Ebanistería Artesanal</h3>
+          <p class="servicio-desc">El arte de trabajar la madera noble con técnicas tradicionales y acabados de precisión. Piezas únicas con alma propia para espacios exclusivos.</p>
+          <ul class="servicio-list">
+            <li>Muebles de madera maciza</li>
+            <li>Restauración de antigüedades</li>
+            <li>Tallas y detalles decorativos</li>
+            <li>Acabados lacados y barnizados nobles</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card" id="servicio-construccion">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 38L24 10l16 28H8Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M18 38v-8h12v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="servicio-title">Carpintería de Construcción</h3>
+          <p class="servicio-desc">Fabricación e instalación de elementos estructurales de madera para obra: puertas, ventanas, marcos, tarimas, escaleras y estructuras.</p>
+          <ul class="servicio-list">
+            <li>Puertas de interior y exterior</li>
+            <li>Ventanas y marcos a medida</li>
+            <li>Escaleras de madera maciza</li>
+            <li>Tarimas y suelos de madera</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card" id="servicio-instalacion">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 14l4-4 20 20-4 4-20-20Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M34 10l4 4M10 34l-4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="servicio-title">Montaje e Instalación</h3>
+          <p class="servicio-desc">No solo fabricamos, también instalamos. Nuestro equipo se encarga de que todo quede perfecto en tu hogar o local comercial.</p>
+          <ul class="servicio-list">
+            <li>Instalación directa en domicilio</li>
+            <li>Proyectos integrales para empresas</li>
+            <li>Reparación y mantenimiento especializado</li>
+            <li>Cobertura en Baix Llobregat y Barcelona</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section class="nosotros" id="nosotros">
+    <div class="container nosotros-inner">
+      <div class="nosotros-visual">
+        <div class="nosotros-img-wrap">
+          <img src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=800&q=80" alt="Taller de carpintería artesanal Jorbel en Gavà" loading="lazy" />
+          <div class="nosotros-badge-float">
+            <span class="badge-num">1994</span>
+            <span class="badge-label">Año de fundación</span>
+          </div>
+        </div>
+        <div class="nosotros-img-secondary">
+          <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80" alt="Detalle de trabajo artesanal en madera" loading="lazy" />
+        </div>
+      </div>
+      <div class="nosotros-content">
+        <p class="section-tag">Quiénes somos</p>
+        <h2 class="section-title">Tres décadas de <em>pasión por la madera</em></h2>
+        <p class="nosotros-text">
+          En 1994, Jorbel nació en Gavà con una premisa simple: hacer las cosas bien. Desde entonces, hemos fabricado e instalado miles de proyectos en hogares y empresas de todo el Baix Llobregat y Barcelona.
+        </p>
+        <p class="nosotros-text">
+          Somos una empresa familiar con taller propio donde cada pieza pasa por nuestras manos desde el diseño hasta la instalación. No subcontratamos: controlamos cada detalle para garantizar la calidad que nuestros clientes merecen.
+        </p>
+        <div class="nosotros-valores">
+          <div class="valor">
+            <div class="valor-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Madera sostenible</strong>
+              <p>Usamos maderas de origen responsable y proveedores certificados de máxima calidad.</p>
+            </div>
+          </div>
+          <div class="valor">
+            <div class="valor-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3c-1 1-2.5 1-3.4 0l-2.6-2.6c-1-1-1-2.5 0-3.4L15.3 2.7c1-1 2.5-1 3.4 0l2.6 2.6c1 1 1 2.4 0 3.4Z"/>
+                <path d="m14.5 3.5 6 6"/>
+                <path d="m7.5 10.5 2 2"/>
+                <path d="m10.5 13.5 2 2"/>
+                <path d="m13.5 16.5 2 2"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Diseño 100% a medida</strong>
+              <p>Cada proyecto se planifica al milímetro para optimizar el espacio exacto del cliente.</p>
+            </div>
+          </div>
+          <div class="valor">
+            <div class="valor-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Trato cercano y honesto</strong>
+              <p>Te acompañamos desde el primer boceto hasta la última pieza instalada en tu hogar.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contacto" class="btn btn-primary">Cuéntanos tu proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERÍA ========== -->
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nuestros trabajos</p>
+        <h2 class="section-title">Proyectos realizados</h2>
+        <p class="section-desc">Cada proyecto es la historia de un cliente satisfecho. Aquí algunos de nuestros trabajos más recientes.</p>
+      </div>
+
+      <div class="galeria-filtros">
+        <button class="filtro active" data-filter="all">Todos</button>
+        <button class="filtro" data-filter="muebles">Muebles</button>
+        <button class="filtro" data-filter="cocinas">Cocinas</button>
+        <button class="filtro" data-filter="armarios">Armarios</button>
+        <button class="filtro" data-filter="construccion">Construcción</button>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="galeria-item large" data-category="cocinas">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80" alt="Cocina a medida en madera de roble - Proyecto Jorbel Gavà" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Cocina a medida</span>
+            <h4>Cocina en roble natural</h4>
+            <p>Gavà, 2024</p>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="armarios">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Armario empotrado a medida - Carpintería Jorbel" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Armario</span>
+            <h4>Vestidor empotrado</h4>
+            <p>Castelldefels, 2024</p>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="muebles">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Sofá y mueble de madera artesanal - Ebanistería Jorbel" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Mobiliario</span>
+            <h4>Salón a medida</h4>
+            <p>Viladecans, 2023</p>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="construccion">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Puertas de madera artesanal - Carpintería construcción Jorbel" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Construcción</span>
+            <h4>Puertas de interior</h4>
+            <p>Sant Boi, 2024</p>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="muebles">
+          <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80" alt="Mesa de madera maciza artesanal - Ebanistería Jorbel Gavà" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Ebanistería</span>
+            <h4>Mesa de roble macizo</h4>
+            <p>Gavà, 2023</p>
+          </div>
+        </div>
+        <div class="galeria-item large" data-category="armarios">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=900&q=80" alt="Armario a medida blanco moderno - Carpintería Jorbel Barcelona" loading="lazy" />
+          <div class="galeria-overlay">
+            <span class="galeria-cat">Armario</span>
+            <h4>Armario lacado blanco</h4>
+            <p>Gavà, 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="galeria-cta">
+        <p>¿Te gusta lo que ves? Podemos fabricar algo igual para tu espacio.</p>
+        <a href="#contacto" class="btn btn-primary">Solicitar presupuesto gratis</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESO ========== -->
+  <section class="proceso">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-tag">Cómo trabajamos</p>
+        <h2 class="section-title">Del boceto a tu hogar</h2>
+      </div>
+      <div class="proceso-steps">
+        <div class="proceso-step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Visita y consulta</h3>
+            <p>Nos reunimos contigo, escuchamos tus necesidades y medimos el espacio sin compromiso.</p>
+          </div>
+        </div>
+        <div class="proceso-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+        <div class="proceso-step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Diseño y presupuesto</h3>
+            <p>Preparamos un diseño personalizado y un presupuesto detallado y transparente.</p>
+          </div>
+        </div>
+        <div class="proceso-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+        <div class="proceso-step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Fabricación artesanal</h3>
+            <p>Elaboramos cada elemento en nuestro taller de Gavà con los mejores materiales.</p>
+          </div>
+        </div>
+        <div class="proceso-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+        <div class="proceso-step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Instalación perfecta</h3>
+            <p>Montamos en tu hogar o local y no nos vamos hasta que cada detalle quede impecable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIOS ========== -->
+  <section class="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Opiniones reales</p>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="testimonios-grid">
+        <div class="testimonio-card">
+          <div class="stars-rating" aria-label="5 estrellas">
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonio-text">"Encargamos una cocina completa a medida y el resultado superó todas nuestras expectativas. Profesionales, puntuales y con un acabado perfecto. Muy recomendables."</p>
+          <div class="testimonio-author">
+            <div class="author-avatar">MG</div>
+            <div>
+              <strong>María García</strong>
+              <span>Gavà · Cocina a medida</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card featured">
+          <div class="stars-rating" aria-label="5 estrellas">
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonio-text">"Llevamos años trabajando con Jorbel para nuestras obras. Su calidad es constante y el trato es siempre excelente. Son de confianza total para cualquier proyecto de carpintería."</p>
+          <div class="testimonio-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <strong>Jordi Mas</strong>
+              <span>Constructor · Castelldefels</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card">
+          <div class="stars-rating" aria-label="5 estrellas">
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonio-text">"El armario empotrado que nos hicieron aprovecha cada centímetro del espacio. El precio fue muy razonable y la instalación impecable. Volveremos a contar con ellos."</p>
+          <div class="testimonio-author">
+            <div class="author-avatar">AL</div>
+            <div>
+              <strong>Ana López</strong>
+              <span>Viladecans · Vestidor a medida</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ZONA COBERTURA ========== -->
+  <section class="cobertura">
+    <div class="container cobertura-inner">
+      <div class="cobertura-content">
+        <p class="section-tag">Dónde trabajamos</p>
+        <h2 class="section-title">Gavà y toda el<br /><em>área metropolitana</em></h2>
+        <p class="cobertura-desc">Tenemos nuestro taller en Gavà pero trabajamos en toda el área del Baix Llobregat y Barcelona metropolitana. ¿Tienes un proyecto más lejos? Consúltanos.</p>
+        <div class="cobertura-municipios">
+          <span>Gavà</span>
+          <span>Castelldefels</span>
+          <span>Viladecans</span>
+          <span>Sant Boi</span>
+          <span>El Prat</span>
+          <span>Begues</span>
+          <span>Barcelona</span>
+          <span>L'Hospitalet</span>
+        </div>
+        <a href="https://maps.google.com/?q=Carrer+Riu+Ter+23+Gavà+Barcelona" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Carrer Riu Ter, 23 · Gavà</span>
+        </a>
+      </div>
+      <div class="cobertura-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.8!2d2.0!3d41.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49b2b3e4a5f7%3A0x0!2sCarrer%20Riu%20Ter%2C%2023%2C%2008850%20Gav%C3%A0%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1725257400000!5m2!1ses!2ses"
+          width="100%"
+          height="400"
+          style="border:0; border-radius: 16px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación de Carpintería Ebanistería Jorbel en Gavà, Barcelona"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Contacto</p>
+        <h2 class="section-title">Solicita tu presupuesto <em>sin compromiso</em></h2>
+        <p class="section-desc">Cuéntanos tu proyecto y te responderemos en menos de 24 horas.</p>
+      </div>
+      <div class="contacto-inner">
+        <div class="contacto-info">
+          <div class="info-card">
+            <div class="info-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Teléfono Directo</strong>
+              <a href="tel:+34936627866">936 62 78 66</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Taller en Gavà</strong>
+              <span>Carrer Riu Ter, 23<br />08850 Gavà, Barcelona</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Horario de Atención</strong>
+              <span>Lunes–Viernes: 8:00–18:00<br />Sábado: 9:00–13:00</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="6"/>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Garantía de Calidad</strong>
+              <span>Más de 30 años en Gavà<br />y el Baix Llobregat</span>
+            </div>
+          </div>
+          <a href="tel:+34936627866" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Llamar ahora al taller</span>
+          </a>
+        </div>
+        <form class="contacto-form" id="contacto-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono *</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="6XX XXX XXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="servicio">Tipo de proyecto</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona un servicio...</option>
+              <option>Muebles a medida</option>
+              <option>Armarios y vestidores</option>
+              <option>Cocina a medida</option>
+              <option>Ebanistería artesanal</option>
+              <option>Puertas y ventanas</option>
+              <option>Carpintería de construcción</option>
+              <option>Otro trabajo de madera</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Cuéntanos tu proyecto *</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe lo que necesitas: tipo de mueble, medidas aproximadas, materiales, plazo..." required></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="privacidad" name="privacidad" required />
+            <label for="privacidad">Acepto la <a href="#">política de privacidad</a> y el tratamiento de mis datos para recibir respuesta a mi consulta.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
+            Enviar solicitud de presupuesto
+          </button>
+          <div class="form-success" id="form-success">
+            <svg class="success-check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <span>¡Mensaje enviado con éxito! Te contactaremos en menos de 24 horas.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="34" height="34" rx="9" fill="var(--wood)" />
+              <path d="M9 11H25M9 17H25M9 23H18" stroke="#F5ECD7" stroke-width="2.2" stroke-linecap="round"/>
+              <circle cx="22" cy="23" r="2.2" fill="#F5ECD7"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-main">JORBEL</span>
+            <span class="logo-sub">Carpintería · Ebanistería</span>
+          </div>
+        </div>
+        <p class="footer-tagline">Fabricando madera con alma desde 1994 en Gavà, Barcelona.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <a href="#servicios">Muebles a medida</a>
+        <a href="#servicios">Ebanistería artesanal</a>
+        <a href="#servicios">Carpintería de construcción</a>
+        <a href="#servicios">Montaje e instalación</a>
+      </div>
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#galeria">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <a href="tel:+34936627866" class="footer-contact-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>936 62 78 66</span>
+        </a>
+        <a href="https://maps.google.com/?q=Carrer+Riu+Ter+23+Gavà" target="_blank" rel="noopener" class="footer-contact-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Carrer Riu Ter, 23<br />08850 Gavà, Barcelona</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Carpintería Ebanistería Jorbel S.L. Todos los derechos reservados.</p>
+        <p class="footer-credit">Web creada por <a href="https://www.lucasyleodigital.com" target="_blank" rel="noopener">Lucas y Leo Digital</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BOTONES FLOTANTES DE CONTACTO ========== -->
+  <div class="floating-actions">
+    <a href="tel:+34936627866" class="fab-btn fab-phone" title="Llamar directamente">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Llamar al taller</span>
+    </a>
+    <a href="https://wa.me/34936627866?text=Hola,%20quisiera%20pedir%20presupuesto%20para%20un%20proyecto%20de%20carpintería" target="_blank" rel="noopener" class="fab-btn fab-whatsapp" title="Escribir por WhatsApp">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.03 7.66C8.84 7.66 8.54 7.73 8.28 8.01C8.03 8.29 7.31 8.97 7.31 10.34C7.31 11.71 8.31 13.03 8.45 13.22C8.59 13.41 10.42 16.23 13.21 17.43C13.87 17.72 14.39 17.89 14.79 18.02C15.45 18.23 16.06 18.2 16.53 18.13C17.06 18.05 18.15 17.47 18.38 16.82C18.61 16.18 18.61 15.62 18.54 15.51C18.47 15.4 18.28 15.33 18 15.19C17.71 15.05 16.31 14.36 16.05 14.27C15.79 14.17 15.61 14.13 15.42 14.41C15.23 14.7 14.69 15.33 14.52 15.51C14.36 15.7 14.19 15.72 13.91 15.58C13.62 15.44 12.7 15.14 11.61 14.17C10.76 13.42 10.19 12.49 10.02 12.21C9.86 11.92 10.01 11.77 10.15 11.63C10.28 11.5 10.44 11.29 10.58 11.13C10.73 10.97 10.78 10.85 10.87 10.66C10.97 10.48 10.92 10.31 10.85 10.17C10.78 10.03 10.22 8.67 9.99 8.12C9.76 7.58 9.53 7.65 9.36 7.64C9.2 7.64 9.03 7.66 9.03 7.66Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
